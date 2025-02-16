@@ -1,0 +1,35 @@
+@import '@fontsource/assistant/400.css';
+@import '@fontsource/assistant/600.css';
+@import '@fontsource/assistant/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+html {
+  direction: rtl;
+  font-family: 'Assistant', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
