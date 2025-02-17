@@ -6,7 +6,7 @@ const ContactStrip = () => {
     {
       id: 'whatsapp',
       icon: <MessageCircle size={24} />,
-      href: 'https://wa.me/0506378303',
+      href: 'https://wa.me/qr/GGNXEVVO4D35F1',
       ariaLabel: 'פתח WhatsApp',
       target: '_blank'
     },
