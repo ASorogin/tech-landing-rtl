@@ -24,6 +24,14 @@ const ContactStrip = () => {
       target: '_blank'
     },
     {
+      id: 'tiktok',
+      // Using Font Awesome icon
+      icon: <i className="fab fa-tiktok" style={{ fontSize: '20px' }}></i>,
+      href: 'https://tiktok.com/@tap3d.il',
+      ariaLabel: 'עקוב אחרינו בטיקטוק',
+      target: '_blank'
+    },
+    {
       id: 'email',
       icon: <Mail size={24} />,
       href: 'mailto:Tap3D@outlook.co.il',
@@ -46,7 +54,7 @@ const ContactStrip = () => {
             rel={method.target === '_blank' ? 'noopener noreferrer' : undefined}
             aria-label={method.ariaLabel}
           >
-            <div className="p-2 rounded-lg bg-primary-dark text-background hover:bg-accent transition-colors duration-300">
+            <div className="p-2 rounded-lg bg-primary-dark text-background hover:bg-accent transition-colors duration-300 flex items-center justify-center" style={{ width: '40px', height: '40px' }}>
               {method.icon}
             </div>
           </a>
